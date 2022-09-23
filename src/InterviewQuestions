@@ -1,0 +1,28 @@
+Why can we not override static method?
+-------------------------------------------------
+It is because the static method is bound with class whereas 
+instance method is bound with an object. Static belongs to the class area, 
+and an instance belongs to the heap area.
+
+Can we override java main method?
+---------------------------------------
+No, because the main is a static method.
+
+Difference between Method OverLoading and Method Overriding
+---------------------------------------------------------
+
+         Method Overloading
+1 Method overloading is used to increase the readability of the program
+2 Method overloading is performed within class  
+3 Method parameters must be different
+4 Method overloading is the example of compile time polymorphism
+5 Return type can be same or different but parameter should be different
+
+         Method Overriding
+1 Method overriding is used to specific implementation of the method that is
+  already provided by its super class.
+2 Method overriding is occurs in 2 classed which have IS-A (Inheritance) relation.
+3 Parameter must be same
+4 Method overriding is the example of run time polymorphism
+5 Return type must be same or covariant in Method overriding
+       
